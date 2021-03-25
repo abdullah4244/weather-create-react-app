@@ -1,0 +1,41 @@
+.Rightscreen {
+    background-color: #0e1111;
+    width: 50%;
+    height: 70vh;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+form input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    color: #e4e4e4;
+    font-weight: 400;
+    width: 30%;
+    padding: 0.5rem;
+    background: transparent;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #e4e4e4;
+    opacity: 0.8; /* Firefox */
+  }
+.btn {
+    
+    padding: 0.7rem 3rem;
+    color: #fff;
+    font-size: 1.4rem;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 1.5rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: #18563e;
+}

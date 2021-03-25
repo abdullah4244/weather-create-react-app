@@ -1,0 +1,21 @@
+.Leftscreen {
+    background-color: #87ceeb;
+    width: 50%;
+    height: 70vh;
+    
+    
+}
+.Leftscreen img {
+    width: 60%;
+}
+.Leftscreen h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #e4e4e4;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
